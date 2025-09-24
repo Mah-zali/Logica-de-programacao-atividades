@@ -1,4 +1,4 @@
-valores = int(input())  # quantidade de valores
+valores = int(input())
 dentro = 0
 fora = 0
 
@@ -10,4 +10,5 @@ for _ in range(valores):
         fora += 1
 
 print(f"{dentro} in")
+
 print(f"{fora} out")
